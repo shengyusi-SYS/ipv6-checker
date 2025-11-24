@@ -1,6 +1,7 @@
 # IPv6 Checker Service
 
 纯 ai 开发，未严格审查，自测可用。一个用于 Windows 的系统服务，用于获取 IPv6 地址。
+典型使用场景：软路由做 ddns 服务，客户端运行该程序，软路由上可通过 url/终端发送 http 请求等方式，获取客户端公网 ipv6。
 
 ## 功能特性
 
@@ -20,9 +21,9 @@
 {
   "port": 3443,
   "urls": [
-    "https://api64.ipify.org?format=json",
-    "https://api6.ipify.org?format=json",
-    "https://icanhazip.com"
+    "https://6.ipw.cn",
+    "http://checkipv6.dyndns.com/"
+    //可手动加入其它地址，响应体中包含ipv6地址即可
   ]
 }
 ```
