@@ -1,0 +1,8 @@
+{
+  "port": 3443,
+  "urls": [
+    "https://api.ipify.org?format=json",
+    "https://icanhazip.com",
+    "https://ident.me"
+  ]
+}
